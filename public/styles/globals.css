@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-dark {
+    @apply bg-[#111928];
+  }
+
+  .bg-dark-hover {
+    @apply bg-neutral-900;
+  }
+
+  .cell {
+    @apply flex justify-center items-center w-[22.5%] h-20 rounded-lg cursor-pointer select-none;
+  }
+
+  body {
+    background-color: black;
+  }
+}
