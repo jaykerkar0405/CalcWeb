@@ -28,7 +28,6 @@ const root = {
   applicationName: "CalcWeb",
   category: "Design, Personal, Portfolio, Technology",
   title: "CalcWeb | Jay Kerkar | Full Stack Web & Mobile App Developer",
-  metadataBase: new URL(String(process.env.NEXT_PUBLIC_BASE_URL)),
   authors: [{ name: "Jay Kerkar", url: "https://github.com/jaykerkar0405" }],
   description:
     "I specialize in full-stack web and mobile development, passionately coding for intuitive digital experiences. Eager to connect and explore tech opportunities!",
